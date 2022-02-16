@@ -3,4 +3,4 @@
 master:
   '*':
     - presence
-    - loginsight
+    - apache
