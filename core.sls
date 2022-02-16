@@ -3,4 +3,4 @@ include:
 
 set_input_grain:
   grains.append:
-    - value: {{ pillar['userInput'] }}
+    - value: {{ userInput }}
