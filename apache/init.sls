@@ -52,3 +52,11 @@ apache-pkg:
     - name: {{ apache }}
     - require:
       - pkg: apache-pkg
+
+Configure Firewall:
+  firewalld.present:
+    - name: public
+    - ports:
+      - 22/tcp
+      - 80/tcp
+      - 443/tcp
