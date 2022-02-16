@@ -3,3 +3,4 @@
 master:
   '*':
     - presence
+    - loginsight
