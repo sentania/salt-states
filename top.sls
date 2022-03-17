@@ -3,4 +3,6 @@
 devel:
   '*':
     - presence
-    - apache
+prod:
+  '*':
+    - presence
